@@ -1,0 +1,228 @@
+.lastSection {
+    margin-top: 150px;
+
+    .lastSectionContainer {
+        margin-left: 150px;
+        margin-right: 150px;
+
+        .lastSectionLinks {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .linksRightSide{
+                padding-left: 100px;
+            }
+            h1 {
+                font-weight: 500;
+                font-size: 36px;
+                margin-top: 10px;
+            }
+
+            p {
+                font-weight: 300;
+                font-size: 20px;
+                margin-top: 10px;
+            }
+
+            .linksButtons {
+                button {
+                    margin-top: 50px;
+                    width: 204px;
+                    height: 56px;
+                    background: #FDC212;
+                    border-radius: 50px;
+                    border: none;
+                    font-weight: 600;
+                    font-size: 24px;
+                }
+                .linksButtons1{
+                    margin-right: 20px;
+                }
+            }
+        }
+        .ContactUs {
+            margin-top: 150px;
+            margin-right: 100px;
+            .ContactUsLeft {
+                margin-right: 200px;
+                h1 {
+                    font-weight: 500;
+                    font-size: 36px;
+                }
+
+                p {
+                    font-weight: 300;
+                    font-size: 20px;
+                    margin-top: 10px;
+                }
+            }
+            .ContactUsRight{
+                display: flex;
+                flex-direction: row;
+            }
+            .ContactUsRightInfo {
+                margin-left: -100px;
+                margin-right: 70px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;        
+                justify-content: center;       
+                p {
+                    margin-top: 10px;
+                    font-size: 20px;
+                }
+
+                strong {
+                    font-weight: 700;
+                }
+            }
+            .ContactUsRightButton {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                button {
+                    width: 174px;
+                    height: 56px;
+                    background: #FDC212;
+                    border-radius: 50px;
+                    border: none;
+                    font-weight: 600;
+                    font-size: 24px;
+                    a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:600px){
+    .lastSection{
+        width: 100%;
+        margin-top: 150px;
+        .lastSectionContainer{
+            margin: 0;
+            padding-left: 30px;
+            padding-right: 30px;
+            .lastSectionLinks{
+                display: flex;
+                flex-direction: column-reverse;
+                text-align: center;
+                .linksRightSide{
+                    padding: 0;
+                    width: 100%;
+                }
+                h1{
+                    font-weight: 500;
+                    font-size: 36px;
+                    line-height: 44px;
+                    font-family: 'Inter', sans-serif;
+                }
+                p{
+                    margin-top: 30px;
+                    font-weight: 300;
+                    font-size: 24px;
+                    line-height: 29px;
+                    font-family: 'Inter', sans-serif;
+                    margin-bottom: 20px;
+                }
+                .linksButtons{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .button{
+                        margin: 0;
+                    }
+                }
+                .linksButtons1{
+                    width: 174px;
+                    height: 56px;
+                    background: #FDC212;
+                    border-radius: 50px;
+                    border: none;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 29px;
+                    margin-right: 15px;
+                }
+                .linksButtons2{
+                    width: 204px;
+                    height: 56px;
+                    background: #FDC212;
+                    border-radius: 50px;
+                    border: none;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 29px;
+                }
+                .linksPhotos{
+                    margin-top: 30px;
+                }
+            }
+            .ContactUs{
+                width: 100%;
+                margin-right: 0;
+                .ContactUsLeft{
+                    width: 100%;
+                    margin-right: 0;
+                    text-align: center;
+
+                    h1{
+                        font-weight: 500;
+                        font-size: 36px;
+                        line-height: 44px;
+                        font-family: 'Inter', sans-serif;
+                    }
+                    p{
+                        margin-top: 20px;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: 300;
+                        font-size: 24px;
+                        line-height: 29px;
+                    }
+                }
+            }
+            .ContactUsRight{
+                margin-top: 30px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                .ContactUsRightInfo{
+                    width: 100%;
+                    margin-left: 0;
+                    margin-right: 0;
+                    p{
+                        font-size: 20px;
+                        line-height: 24px;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: 300;
+                        margin-top: 20x;
+                        strong{
+                            font-weight: 700;
+                        }
+                    }
+                }
+                .ContactUsRightButton{
+                    padding-right: 20px;
+                    button{
+                        width: 174px;
+                        height: 56px;
+                        background: #FDC212;
+                        border-radius: 50px;
+                        border: none;
+                        a{
+                            font-weight: 600;
+                            font-size: 24px;
+                            line-height: 29px;
+                            color: black;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,767 @@
+.header {
+  background-color: #EFEFEF;
+  width: 100%;
+  height: 100px;
+}
+.header .headerContainer {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header .headerLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.header .headerRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 110px;
+}
+.header .headerRight a {
+  margin-right: 50px;
+}
+.header .headerRight button {
+  width: 174px;
+  height: 56px;
+  background-color: #FDC212;
+  border-radius: 50px;
+  text-align: center;
+  border: none;
+}
+.header .headerRight button a {
+  margin-right: 0;
+}
+.header a {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .header {
+    width: 100%;
+    height: 100px;
+    background-color: #858585;
+  }
+  .header .headerContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .header .headerContainer .headerRight {
+    display: none;
+  }
+  .header .headerContainer .headerLeft {
+    margin: 0;
+  }
+  .header .headerContainer .headerLeft a {
+    padding-left: 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 48px;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+  }
+}
+.firstSectionContainer {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.firstSectionContainer .firstSectionFirstBoxLeftSide h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.firstSectionContainer .firstSectionFirstBoxLeftSide p {
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 24px;
+}
+.firstSectionContainer .firstSectionFirstBoxLeftSide button {
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 24px;
+  width: 174px;
+  height: 56px;
+  background: #FDC212;
+  border-radius: 50px;
+  border: none;
+}
+.firstSectionContainer .firstSectionFirstBoxLeftSide button a {
+  text-decoration: none;
+  color: black;
+}
+.firstSectionContainer .firstSectionSecondBox {
+  margin-top: 150px;
+}
+.firstSectionContainer .firstSectionSecondBox h1 {
+  font-weight: 500;
+  font-size: 36px;
+}
+.firstSectionContainer .firstSectionSecondBox p {
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 20px;
+}
+.firstSectionContainer .firstSectionThirdBox {
+  margin-top: 150px;
+}
+.firstSectionContainer .firstSectionThirdBox h1 {
+  font-weight: 500;
+  font-size: 36px;
+}
+.firstSectionContainer .firstSectionThirdBox p {
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  .firstSection {
+    width: 100%;
+  }
+  .firstSection .firstSectionContainer {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .firstSection .firstSectionContainer .firstSectionFirstBox {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .firstSection .firstSectionContainer .firstSectionFirstBox .firstSectionFirstBoxLeftSide {
+    width: 100%;
+  }
+  .firstSection .firstSectionContainer .firstSectionFirstBox .firstSectionFirstBoxLeftSide h1 {
+    font-weight: 700;
+    font-size: 48px;
+    font-family: "Inter", sans-serif;
+    margin-top: 30px;
+  }
+  .firstSection .firstSectionContainer .firstSectionFirstBox .firstSectionFirstBoxLeftSide p {
+    font-weight: 300;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    margin-top: 10px;
+  }
+  .firstSection .firstSectionContainer .firstSectionFirstBox .firstSectionFirstBoxLeftSide button {
+    width: 174px;
+    height: 56px;
+    margin-top: 20px;
+    background-color: #FDC212;
+    border-radius: 50px;
+    border: none;
+  }
+  .firstSection .firstSectionContainer .firstSectionFirstBox .firstSectionFirstBoxLeftSide button a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+  }
+  .firstSection .firstSectionContainer .firstSectionFirstBox .firstSectionFirstBoxRightSide {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .firstSection .firstSectionContainer .firstSectionFirstBox .firstSectionFirstBoxRightSide .img {
+    width: 100%;
+    height: auto;
+  }
+  .firstSection .firstSectionContainer .firstSectionSecondBox {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    margin-top: 150px;
+    align-items: center;
+  }
+  .firstSection .firstSectionContainer .firstSectionSecondBox .firstSectionSecondBoxText {
+    width: 100%;
+  }
+  .firstSection .firstSectionContainer .firstSectionSecondBox h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    font-family: "Inter", sans-serif;
+    color: black;
+  }
+  .firstSection .firstSectionContainer .firstSectionSecondBox p {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: black;
+    font-family: "Inter", sans-serif;
+  }
+  .firstSection .firstSectionContainer .firstSectionSecondBox .firstSectionSecondBoxImg {
+    margin-top: 20px;
+  }
+  .firstSection .firstSectionContainer .firstSectionThirdBox {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 150px;
+    align-items: center;
+  }
+  .firstSection .firstSectionContainer .firstSectionThirdBox .firstSectionThirdBoxText {
+    width: 100%;
+  }
+  .firstSection .firstSectionContainer .firstSectionThirdBox h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    font-family: "Inter", sans-serif;
+    color: black;
+  }
+  .firstSection .firstSectionContainer .firstSectionThirdBox p {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: black;
+    font-family: "Inter", sans-serif;
+  }
+  .firstSection .firstSectionContainer .firstSectionThirdBox .firstSectionThirdBoxImg {
+    margin-top: 20px;
+  }
+}
+.services {
+  margin-top: 150px;
+}
+.services .servicesContainer {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.services .servicesContainer h1 {
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+}
+.services .servicesContainer .servicesOffers {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.services .servicesContainer .servicesOffers .servicesBox {
+  height: 306px;
+  width: 261px;
+  border: 4px solid #dcdcdc;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+.services .servicesContainer .servicesOffers h2 {
+  font-weight: 500;
+  font-size: 24px;
+}
+.services .servicesContainer .servicesOffers p {
+  font-weight: 300;
+  font-size: 20px;
+}
+.services .servicesContainer .servicesOffers a {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .services {
+    width: 100%;
+    margin-top: 150px;
+  }
+  .services .servicesContainer {
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+  }
+  .services .servicesContainer h1 {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 36px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+  }
+  .services .servicesContainer h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: "Inter", sans-serif;
+  }
+  .services .servicesContainer p {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+  }
+  .services .servicesContainer a {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: black;
+  }
+  .services .servicesContainer .servicesOffers {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .services .servicesContainer .servicesOffers .servicesBox {
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    border: 4px solid grey;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+  }
+}
+.lastSection {
+  margin-top: 150px;
+}
+.lastSection .lastSectionContainer {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.lastSection .lastSectionContainer .lastSectionLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lastSection .lastSectionContainer .lastSectionLinks .linksRightSide {
+  padding-left: 100px;
+}
+.lastSection .lastSectionContainer .lastSectionLinks h1 {
+  font-weight: 500;
+  font-size: 36px;
+  margin-top: 10px;
+}
+.lastSection .lastSectionContainer .lastSectionLinks p {
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.lastSection .lastSectionContainer .lastSectionLinks .linksButtons button {
+  margin-top: 50px;
+  width: 204px;
+  height: 56px;
+  background: #FDC212;
+  border-radius: 50px;
+  border: none;
+  font-weight: 600;
+  font-size: 24px;
+}
+.lastSection .lastSectionContainer .lastSectionLinks .linksButtons .linksButtons1 {
+  margin-right: 20px;
+}
+.lastSection .lastSectionContainer .ContactUs {
+  margin-top: 150px;
+  margin-right: 100px;
+}
+.lastSection .lastSectionContainer .ContactUs .ContactUsLeft {
+  margin-right: 200px;
+}
+.lastSection .lastSectionContainer .ContactUs .ContactUsLeft h1 {
+  font-weight: 500;
+  font-size: 36px;
+}
+.lastSection .lastSectionContainer .ContactUs .ContactUsLeft p {
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.lastSection .lastSectionContainer .ContactUs .ContactUsRight {
+  display: flex;
+  flex-direction: row;
+}
+.lastSection .lastSectionContainer .ContactUs .ContactUsRightInfo {
+  margin-left: -100px;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.lastSection .lastSectionContainer .ContactUs .ContactUsRightInfo p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.lastSection .lastSectionContainer .ContactUs .ContactUsRightInfo strong {
+  font-weight: 700;
+}
+.lastSection .lastSectionContainer .ContactUs .ContactUsRightButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lastSection .lastSectionContainer .ContactUs .ContactUsRightButton button {
+  width: 174px;
+  height: 56px;
+  background: #FDC212;
+  border-radius: 50px;
+  border: none;
+  font-weight: 600;
+  font-size: 24px;
+}
+.lastSection .lastSectionContainer .ContactUs .ContactUsRightButton button a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  .lastSection {
+    width: 100%;
+    margin-top: 150px;
+  }
+  .lastSection .lastSectionContainer {
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .lastSection .lastSectionContainer .lastSectionLinks {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .lastSection .lastSectionContainer .lastSectionLinks .linksRightSide {
+    padding: 0;
+    width: 100%;
+  }
+  .lastSection .lastSectionContainer .lastSectionLinks h1 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    font-family: "Inter", sans-serif;
+  }
+  .lastSection .lastSectionContainer .lastSectionLinks p {
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+  }
+  .lastSection .lastSectionContainer .lastSectionLinks .linksButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lastSection .lastSectionContainer .lastSectionLinks .linksButtons .button {
+    margin: 0;
+  }
+  .lastSection .lastSectionContainer .lastSectionLinks .linksButtons1 {
+    width: 174px;
+    height: 56px;
+    background: #FDC212;
+    border-radius: 50px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-right: 15px;
+  }
+  .lastSection .lastSectionContainer .lastSectionLinks .linksButtons2 {
+    width: 204px;
+    height: 56px;
+    background: #FDC212;
+    border-radius: 50px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .lastSection .lastSectionContainer .lastSectionLinks .linksPhotos {
+    margin-top: 30px;
+  }
+  .lastSection .lastSectionContainer .ContactUs {
+    width: 100%;
+    margin-right: 0;
+  }
+  .lastSection .lastSectionContainer .ContactUs .ContactUsLeft {
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+  }
+  .lastSection .lastSectionContainer .ContactUs .ContactUsLeft h1 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    font-family: "Inter", sans-serif;
+  }
+  .lastSection .lastSectionContainer .ContactUs .ContactUsLeft p {
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .lastSection .lastSectionContainer .ContactUsRight {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .lastSection .lastSectionContainer .ContactUsRight .ContactUsRightInfo {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .lastSection .lastSectionContainer .ContactUsRight .ContactUsRightInfo p {
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    margin-top: 20x;
+  }
+  .lastSection .lastSectionContainer .ContactUsRight .ContactUsRightInfo p strong {
+    font-weight: 700;
+  }
+  .lastSection .lastSectionContainer .ContactUsRight .ContactUsRightButton {
+    padding-right: 20px;
+  }
+  .lastSection .lastSectionContainer .ContactUsRight .ContactUsRightButton button {
+    width: 174px;
+    height: 56px;
+    background: #FDC212;
+    border-radius: 50px;
+    border: none;
+  }
+  .lastSection .lastSectionContainer .ContactUsRight .ContactUsRightButton button a {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: black;
+    text-decoration: none;
+  }
+}
+.footer {
+  background-color: #FEE59A;
+  margin-top: 150px;
+}
+.footer .footerContainer {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.footer .footerContainer .footerContent h1 {
+  font-weight: 500;
+  font-size: 32px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.footer .footerContainer .footerContent a {
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+.footer .footerContainer .footerContent .footerLeft {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footerContainer .footerContent .footerMiddle {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footerContainer .footerContent .footerRight {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footerContainer .footerLeftA {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footerContainer .footerEnd {
+  margin-top: 70px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.footer .footerContainer .footerEnd a {
+  font-weight: 300;
+  font-size: 20px;
+  color: #555454;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    width: 100%;
+    margin-top: 150px;
+    height: auto;
+    background: #FEE59A;
+  }
+  .footer .footerContainer {
+    padding: 0 30px;
+    margin: 0;
+  }
+  .footer .footerContainer .footerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .footer .footerContainer .footerContent h1 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    font-family: "Inter", sans-serif;
+  }
+  .footer .footerContainer .footerContent a {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+  }
+  .footer .footerContainer .footerContent .footerLeft {
+    width: 100%;
+  }
+  .footer .footerContainer .footerContent .footerLeft .footerLeftA {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer .footerContainer .footerContent .footerLeft h1 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  .footer .footerContainer .footerContent .footerMiddle {
+    margin-top: -10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .footer .footerContainer .footerContent .footerMiddle h1 {
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  .footer .footerContainer .footerContent .footerRight {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .footer .footerContainer .footerContent .footerRight h1 {
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  .footer .footerContainer .footerEnd {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 30px;
+  }
+  .footer .footerContainer .footerEnd a {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #555454;
+    font-family: "Inter", sans-serif;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.64%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3%;
+}
+
+.col-11 {
+  width: 91.63%;
+}
+
+.col-12 {
+  width: 100%;
+}

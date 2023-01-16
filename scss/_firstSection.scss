@@ -1,0 +1,196 @@
+.firstSectionContainer {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .firstSectionFirstBoxLeftSide {
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+        }
+
+        p {
+            margin-top: 10px;
+            font-weight: 300;
+            font-size: 24px;
+        }
+
+        button {
+            margin-top: 30px;
+            font-weight: 500;
+            font-size: 24px;
+            width: 174px;
+            height: 56px;
+            background: #FDC212;
+            border-radius: 50px;
+            border: none;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+
+    .firstSectionSecondBox {
+        margin-top: 150px;
+
+        h1 {
+            font-weight: 500;
+            font-size: 36px;
+        }
+
+        p {
+            margin-top: 10px;
+            font-weight: 300;
+            font-size: 20px;
+        }
+    }
+
+    .firstSectionThirdBox {
+        margin-top: 150px;
+
+        h1 {
+            font-weight: 500;
+            font-size: 36px;
+        }
+
+        p {
+            margin-top: 10px;
+            font-weight: 300;
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width:600px) {
+    .firstSection {
+        width: 100%;
+        .firstSectionContainer {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+
+            .firstSectionFirstBox {
+                margin-top: 50px;
+                display: flex;
+                flex-direction: column-reverse;
+                padding-left: 30px;
+                padding-right: 30px;
+
+                .firstSectionFirstBoxLeftSide {
+                    width: 100%;
+                    h1 {
+                        font-weight: 700;
+                        font-size: 48px;
+                        font-family: 'Inter', sans-serif;
+                        margin-top: 30px;
+                    }
+
+                    p {
+                        font-weight: 300;
+                        font-size: 24px;
+                        font-family: 'Inter', sans-serif;
+                        margin-top: 10px;
+                    }
+
+                    button {
+                        width: 174px;
+                        height: 56px;
+                        margin-top: 20px;
+                        background-color: #FDC212;
+                        border-radius: 50px;
+                        border: none;
+
+                        a {
+                            text-decoration: none;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: 500;
+                            font-size: 24px;
+                            color: black;
+                        }
+                    }
+                }
+                .firstSectionFirstBoxRightSide{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .img{
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+
+            .firstSectionSecondBox {
+                display: flex;
+                flex-direction: column-reverse;
+                padding-left: 30px;
+                padding-right: 30px;
+                width: 100%;
+                margin-top: 150px;
+                align-items: center;
+                .firstSectionSecondBoxText{
+                    width: 100%;
+                }
+                h1 {
+                    text-align: center;
+                    font-weight: 500;
+                    font-size: 36px;
+                    line-height: 44px;
+                    font-family: 'Inter', sans-serif;
+                    color: black;
+                }
+                p {
+                    margin-top: 10px;
+                    font-weight: 300;
+                    font-size: 24px;
+                    line-height: 29px;
+                    text-align: center;
+                    color: black;
+                    font-family: 'Inter', sans-serif;
+                }
+                .firstSectionSecondBoxImg{
+                    margin-top: 20px;
+                }
+            }
+
+            .firstSectionThirdBox {
+                display: flex;
+                flex-direction: column;
+                padding-left: 30px;
+                padding-right: 30px;
+                margin-top: 150px;
+                align-items: center;
+                .firstSectionThirdBoxText{
+                    width: 100%;
+                }
+                h1 {
+                    text-align: center;
+                    font-weight: 500;
+                    font-size: 36px;
+                    line-height: 44px;
+                    font-family: 'Inter', sans-serif;
+                    color: black;
+                }
+
+                p {
+                    margin-top: 10px;
+                    font-weight: 300;
+                    font-size: 24px;
+                    line-height: 29px;
+                    text-align: center;
+                    color: black;
+                    font-family: 'Inter', sans-serif;
+                }
+                .firstSectionThirdBoxImg{
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
